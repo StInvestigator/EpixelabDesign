@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 50px auto;
+}
+a{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+}
+.evenly{
+    justify-content: space-evenly;
+}
+.around{
+    justify-content: space-around;
+}
+.fcenter{
+    justify-content: center;
+}
+img, span, input, a{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+.burger{
+    display: none;
+}
+.burger span{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.headBtns a{
+    display: inline;
+}
+.header ul a{
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.header ul a:hover{
+    font-weight: bold;
+}
+.orangeBtn{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: rgb(255, 102, 0);
+    padding: 15px 30px;
+    color: white;
+}
+.pad10{
+    padding-top: 10px;
+}
+.headerText h3{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 81px;
+    color: rgb(11, 27, 53);
+}
+.headerText p{
+    margin-top: 16px;
+    margin-bottom: 63px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.headerText{
+    margin-top: 114px;
+    width: 520px;
+}
+.HTbuttons{
+    width: 370px;
+}
+.LearnMore{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.getStarted{
+    margin: 5px 30px 5px 0;
+}
+.arrows, .manPhone, .backgroundData{
+    position: absolute;
+}
+.arrows{
+    top: 220px;
+    left: 850px;
+}
+.manPhone{
+    top: 130px;
+    left: 850px;
+}
+.backgroundData{
+    top: 190px;
+    left: 710px;
+}
+span{
+    margin-top: 140px;
+    color: rgb(138, 137, 142);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:4.5px;
+    text-align: center;
+}
+h2{
+    color: rgb(11, 27, 53);
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.cards{
+    margin: 110px 50px 0;
+}
+.card{
+    width: 350px;
+    height: 510px;
+    border-radius: 28px;
+    box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02),0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03),0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04),0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04),0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05),0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+.card img{
+    margin-left: 40%;
+    margin-top: 30px;
+    width: 76.5px;
+    height: 76.5px;
+}
+.card h3{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+.card p{
+    text-align: center;
+    margin: 0 40px 0 40px;
+    font-size: 18px;
+    line-height: 28.5px;
+}
+.card a{
+    text-align: center;
+    margin: 18px 95px 45px;
+    font-size: 18px;
+    line-height: 28.5px;
+}
+.cardImg{
+    height: 150px;
+}
+.client{
+    padding: 35px 35px 25px 25px;
+    margin: 30px 30px 0 0;
+}
+.client p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(11, 27, 53);
+    width: 270px;
+    height: 140px;
+}
+.comment{
+    margin-left: 30px;
+}
+.client img{
+    width: 70px;
+    height: 70px;
+}
+.client span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-align: left;
+    color: rgb(11, 27, 53);
+    opacity: 0.3;
+}
+.m-t{
+    margin-top: 100px;
+}
+.clients{
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+.member{
+    width: 370px;
+    height: 310px;
+    border: 2px solid rgb(235, 234, 237);
+    border-radius: 10px;
+    margin: 0 15px;
+}
+.member img{
+    margin: 50px 125px 0;
+}
+.member h4{
+    color: rgb(30, 14, 98);
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+.member span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    color: rgba(21, 20, 57, 0.4);
+}
+.team{
+    margin-top: 55px;
+}
+form{
+    margin-left: 50px;
+}
+form p{
+    font-size: 18px;
+    line-height: 28.5px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 26px;
+    height: 80px;
+}
+form input{
+    border: 1px solid rgb(138, 137, 142);
+    width: 100%;
+    border-radius: 49px;
+    box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02),0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03),0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04),0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04),0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05),0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+    font-size: 24px;
+    padding: 24px 67px;
+    margin-top: 23px;
+}
+form button{
+    border: none;
+    width: 100%;
+    height: 49px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.bottomNav{
+    margin-top: 165px;
+}
+.bottomNav img{
+    width: 110px;
+    height: 25px;
+}
+.bottomNav p, .bottomNav ul{
+    color: rgb(30, 14, 98);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.bottomNav p{
+    margin-left: 90px;
+    margin-right: 100px;
+    width: 370px;
+}
+.bottomNav ul li a{
+    font-family: "DM Sans", sans-serif;
+    margin-left: 40px;
+}
+.line{
+    border: 2px solid rgb(235, 234, 237);
+    opacity: 0.5;
+    margin: 35px 0 40px;
+}
+.gray{
+    color: rgba(21, 20, 57, 0.4);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}

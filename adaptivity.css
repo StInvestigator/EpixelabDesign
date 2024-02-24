@@ -1,0 +1,100 @@
+@media screen and (max-width:1200px){
+    .container{
+        width: 1100px;
+    }
+    .arrows{
+        left: 600px;
+    }
+    .backgroundData{
+        left: 460px;
+    }
+    .manPhone{
+        left: 600px;
+    }
+    .cards{
+        margin: 110px 0 0 0;
+    }
+    .bottomNav p{
+        margin-right: 50px;
+    }
+    .member{
+        width: 310px;
+    }
+    .member img{
+        margin: 50px 93px 0;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 700px;
+    }
+    .arrows{
+        top: 720px;
+        left: 100px;
+    }
+    .backgroundData{
+        top: 690px;
+        left: -40px;
+    }
+    .manPhone{
+        top: 630px;
+        left: 100px;
+    }
+    .header ul, .headBtns,.bottomNav ul, .newsleter img{
+        display: none;
+    }
+    .burger, .cards{
+        display: block;
+    }
+    .HTbuttons{
+        margin-top: 800px;
+    }
+    .card{
+        margin: 100px auto;
+    }
+    .team{
+        flex-wrap: wrap;
+    }
+    .member{
+        margin-top: 50px;
+    }
+    form{
+        margin: 0;
+    }
+    .comment p{
+        width: 400px;
+        font-size: 20px;
+    }
+    .comment span{
+        font-size: 16px;
+    }
+    .member h4{
+        font-size: 26px;
+    }
+    .member span{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:576px){
+    .container{
+        width: 520px;
+    }
+    .arrows, .backgroundData, .manPhone{
+        transform: scale(0.8);
+    }
+    .arrows{
+        top: 660px;
+        left: -15px;
+    }
+    .backgroundData{
+        top: 610px;
+        left: -100px;
+    }
+    .manPhone{
+        top: 550px;
+        left: 00px;
+    }
+    .HTbuttons{
+        margin-top: 680px;
+    }
+}
